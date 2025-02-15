@@ -6,7 +6,7 @@ Menu("SELECT A PROGRAM","DIST 1D",1,"DIST 2D",4,"QUADRATIC FORMULA",5,"STD:SIF",
 Lbl 1
 ClrHome
 Prompt A,B
-Dip abs(A-B)
+Disp abs(A-B)
 Pause
 Goto 0
 

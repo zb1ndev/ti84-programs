@@ -1,7 +1,7 @@
 ClrHome
 Lbl 0
 
-Menu("SELECT A PROGRAM","DIST 1D",1,"DIST 2D",4,"QUADRATIC FORMULA",5,"STD:SIF",6,"T SOLVER",7,"QUIT",Q)
+Menu("SELECT A PROGRAM","DIST 1D",1,"DIST 2D",4,"QUADRATIC FORMULA",5,"STD TO SIF",6,"PARAMETRIC SOLVER",7,"NEXT PAGE >",8,"QUIT",Q)
 
 Lbl 1
 ClrHome
@@ -58,6 +58,10 @@ Prompt T
 Disp expr(Str0), expr(Str9)
 Pause
 Menu("T SOLVER","CONTINUE",T,"QUIT",0)
+
+Lbl 8
+prgmMATH2
+Goto 0
 
 Lbl Q
 ClrHome
